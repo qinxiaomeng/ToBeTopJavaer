@@ -2,13 +2,13 @@
 
 java 虚拟机（JVM）在运行Java程序时，将其管理的内存分割成不同的区域，这些不同的区域又有不同的用途。
 
-<img src="/Users/qinxiaomeng/Documents/加油站/笔记/ToBeTopJavaer/imgs/jvm内存结构示意图.png" style="zoom:50%;" />
+<img src="../imgs/jvm内存结构示意图.png" style="zoom:50%;" />
 
 ## JVM栈
 
 栈是由栈帧组成的，当调用一个方法时，可以从类型信息中获得局部变量区和操作数栈的大小，并以此分配栈内存，然后JVM就会在对应的线程中压入一个帧。栈帧的组成：局部变量区、操作数栈、帧数据区，如图：
 
-<img src="/Users/qinxiaomeng/Documents/加油站/笔记/ToBeTopJavaer/imgs/栈帧组成.png" style="zoom:50%;" />
+<img src="../imgs/栈帧组成.png" style="zoom:50%;" />
 
 - 局部变量区
 
@@ -24,7 +24,9 @@ java 虚拟机（JVM）在运行Java程序时，将其管理的内存分割成�
   }
   ```
 
-  ![](/Users/qinxiaomeng/Documents/加油站/笔记/ToBeTopJavaer/imgs/局部变量区示意.png)
+  ![](../imgs/局部变量区示意.png)
+
+  
 
   
 
@@ -38,7 +40,7 @@ java 虚拟机（JVM）在运行Java程序时，将其管理的内存分割成�
   	int c = a+b;
   ```
 
-  ![](/Users/qinxiaomeng/Documents/加油站/笔记/ToBeTopJavaer/imgs/操作数栈示意.png)
+  ![](../imgs/操作数栈示意.png)
 
 - 帧数据区
 
